@@ -4,5 +4,6 @@ int main(){
     scanf("%lf", &R);
     A=pi*R*R;
     printf("A= %.4lf", A);
-
+  
+    
 }
