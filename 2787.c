@@ -2,7 +2,7 @@
 int main(){
     int l;
     int c;
-    scanf("%d %d",&l, &c);
+    scanf("%d %d",&l,&c);
    if(l%2==0){
     if(c%2==0){
         printf("1");
