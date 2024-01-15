@@ -1,15 +1,19 @@
 #include<stdio.h>
 int main(){
-   int n, i,a,b,c,d;
-   scanf("%d", &n);
+  int i, n;
+  while (1)
+  {
+  scanf("%d", &n);
+  if(n==0) break;
+  else{
    for(i=1; i<=n; i++){
-      a= i*i;
-      b=i*i*i;
-      printf("%d %d %d\n",i , a, b);
-      c=a+1;
-      d=b+1;
-
-      printf("%d %d %d\n", i, c, d);
-
+   printf("%d ", i);
+   
+    }
+   printf("%d\n", n);
    }
+   
+  }
+  return 0;
 }
+//panding
